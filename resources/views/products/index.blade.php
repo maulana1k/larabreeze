@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 @if (count($products) == 0)
-                <div class="text-center text-white mx-auto text-4xl my-10">
+                <div class="text-center dark:text-white mx-auto text-4xl my-10">
                     Product not found
                 </div>
                 @endif
