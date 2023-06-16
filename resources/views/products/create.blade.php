@@ -65,7 +65,7 @@
                                 <input
                                     required
                                     name="stock"
-                                    type="text"
+                                    type="number"
                                     value=""
                                     min="1"
                                     placeholder="0"
