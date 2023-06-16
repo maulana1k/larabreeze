@@ -115,7 +115,7 @@ class ProductController extends Controller
             $product->stock = $request->input('stock');
         }
         $product->save();
-        return view('products.details', compact('product'))
+        return redirect()->route('products.show', $product)
             ->with('success', 'Product updated successfully.');
     }
 }
